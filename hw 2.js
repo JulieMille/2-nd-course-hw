@@ -29,8 +29,8 @@ num = num + 5;
 num = num - 3;
 num = num * 7;
 num = num / 3;
-num = num++;
-num = num--;
+num++;
+num--;
 alert(num);
 
 let yourAge = Number(prompt('Сколько вам лет?'));
