@@ -65,6 +65,7 @@ body {
     background: #000915;
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     gap: 32px;
 
     &__1 {
@@ -101,3 +102,5 @@ body {
         border: #FFFFFF;
     }
 }
+
+@import 'mobile';
