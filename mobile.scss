@@ -38,6 +38,10 @@
         align-items: center;
     }
 
+    .items {
+        flex-wrap: wrap;
+    }
+
     .item {
         width: 343px;
         height: 300px;

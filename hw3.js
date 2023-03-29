@@ -1,10 +1,10 @@
 // задание 1
 let password = 'threewords';
-let checkPW = String(prompt('Введите пароль'));
+const checkPW = String(prompt('Введите пароль'));
 password === checkPW ? alert('Пароль введен верно') : alert('Пароль введен неправильно')
 
 // задание 2
-let c = 27;
+const c = 27;
 if (c > 0 && c < 10) {
     console.log('Верно');
 } else {
@@ -12,8 +12,8 @@ if (c > 0 && c < 10) {
 }
 
 // задание 3
-let d = 107;
-let e = 73;
+const d = 107;
+const e = 73;
 if (d > 100 || e > 100) {
     console.log('Верно');
 } else {
@@ -21,8 +21,8 @@ if (d > 100 || e > 100) {
 }
 
 // задание 4
-let a = '2';
-let b = '3';
+const a = '2';
+const b = '3';
 alert(Number(a) + Number(b));
 
 // задание 5
