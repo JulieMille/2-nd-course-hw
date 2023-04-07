@@ -46,4 +46,30 @@
         width: 343px;
         height: 300px;
     }
+
+    .game {
+        flex-wrap: wrap;
+
+        &__left {
+            width: 343px;
+            align-items: center;
+        }
+
+        &__desc {
+            text-align: center;
+        }
+
+        &__right {
+            width: 344px;
+            height: 236px;
+        }
+    }
+
+    .imgbig {
+        display: none;
+    }
+
+    .imgsmall {
+        display: block;
+    }
 }

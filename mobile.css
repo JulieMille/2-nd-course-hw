@@ -41,4 +41,24 @@
     width: 343px;
     height: 300px;
   }
+  .game {
+    flex-wrap: wrap;
+  }
+  .game__left {
+    width: 343px;
+    align-items: center;
+  }
+  .game__desc {
+    text-align: center;
+  }
+  .game__right {
+    width: 344px;
+    height: 236px;
+  }
+  .imgbig {
+    display: none;
+  }
+  .imgsmall {
+    display: block;
+  }
 }/*# sourceMappingURL=mobile.css.map */
