@@ -46,7 +46,9 @@
   }
   .game__left {
     width: 343px;
+    display: flex;
     align-items: center;
+    justify-items: center;
   }
   .game__desc {
     text-align: center;
@@ -55,10 +57,10 @@
     width: 344px;
     height: 236px;
   }
-  .imgbig {
-    display: none;
-  }
-  .imgsmall {
-    display: block;
+  .game__title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
   }
 }/*# sourceMappingURL=mobile.css.map */

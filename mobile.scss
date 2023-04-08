@@ -52,7 +52,9 @@
 
         &__left {
             width: 343px;
+            display: flex;
             align-items: center;
+            justify-items: center;
         }
 
         &__desc {
@@ -63,13 +65,12 @@
             width: 344px;
             height: 236px;
         }
-    }
 
-    .imgbig {
-        display: none;
-    }
-
-    .imgsmall {
-        display: block;
+        &__title {
+            font-style: normal;
+            font-weight: 700;
+            font-size: 32px;
+            line-height: 39px;
+        }
     }
 }

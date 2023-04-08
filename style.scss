@@ -144,10 +144,10 @@ body {
         line-height: 22px;
         color: #FFFFFF;
     }
-}
 
-.imgsmall {
-    display: none;
+    &__logo {
+        width: 100%;
+    }
 }
 
 @import 'mobile';
