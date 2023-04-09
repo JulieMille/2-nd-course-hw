@@ -103,4 +103,51 @@ body {
     }
 }
 
+.game {
+    background: #000915;
+    height: 800px;
+    display: flex;
+    align-items: center;
+    gap: 135px;
+
+    &__left {
+        width: 584px;
+        display: flex;
+        flex-direction: column;
+        gap: 32px;
+    }
+
+    &__title {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 59px;
+        color: #FFFFFF;
+    }
+
+    &__desc {
+        font-style: normal;
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 32px;
+        color: #FFFFFF;
+    }
+
+    &__button {
+        background: #9C0332;
+        border-radius: 30px;
+        width: 235px;
+        height: 49px;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 22px;
+        color: #FFFFFF;
+    }
+
+    &__logo {
+        width: 100%;
+    }
+}
+
 @import 'mobile';

@@ -45,5 +45,35 @@
     .item {
         width: 343px;
         height: 300px;
+        border-radius: 16px;
+    }
+
+    .game {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+
+        &__left {
+            width: 343px;
+            display: flex;
+            align-items: center;
+            justify-items: center;
+        }
+
+        &__desc {
+            text-align: center;
+        }
+
+        &__right {
+            width: 344px;
+            height: 236px;
+        }
+
+        &__title {
+            font-style: normal;
+            font-weight: 700;
+            font-size: 32px;
+            line-height: 39px;
+        }
     }
 }

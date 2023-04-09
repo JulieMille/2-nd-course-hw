@@ -6,6 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HomeWork2.1</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -22,7 +25,20 @@
         <div class="items__2 item">Игра 2</div>
         <div class="items__3 item">Игра 3</div>
     </section>
+    <section class="game center">
+        <div class="game__left">
+            <h2 class="game__title">Времена года!</h2>
+            <p class="game__desc">Нажмите кнопку играть, введите номер месяца (от 1 до 12) и вы узнаете к какому времени
+                года он относится</p>
+            <button onclick="getSeason()" class="game__button">Играть!</button>
+        </div>
+        <div class="game__right">
+            <img class="game__logo" src="seasons.svg" alt="gamelogo">
+        </div>
 
+    </section>
+
+    <script src="hw55.js"></script>
 </body>
 
 </html>
