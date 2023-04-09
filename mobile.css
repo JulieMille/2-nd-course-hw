@@ -40,9 +40,12 @@
   .item {
     width: 343px;
     height: 300px;
+    border-radius: 16px;
   }
   .game {
+    display: flex;
     flex-wrap: wrap;
+    justify-content: center;
   }
   .game__left {
     width: 343px;
