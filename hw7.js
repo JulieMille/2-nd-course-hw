@@ -4,15 +4,17 @@ a = a.toUpperCase();
 console.log(a);
 
 // задание 2
-const words = ['переход', 'перерыв', 'прорыв', 'пролив', 'перед', 'промыв'];
-const search = 'пере';
-const newWords = [];
-words.forEach((el) => {
-    if (el.toLowerCase().startsWith(search.toLowerCase())) {
-        newWords.push(el);
-    }
-});
-console.log(newWords);
+function findStart(words, search) {
+    const words = ['переход', 'перерыв', 'прорыв', 'пролив', 'перед', 'промыв'];
+    const search = 'пере';
+    const newWords = [];
+    words.forEach((el) => {
+        if (el.toLowerCase().startsWith(search.toLowerCase())) {
+            newWords.push(el);
+        }
+    });
+    console.log(newWords);
+}
 
 // задание 3
 const b = 32.58884
@@ -54,19 +56,21 @@ currentDate.setDate(new Date().getDate() + 73);
 console.log(`через 73 дня будет ${currentDate}`);
 
 // задание 10
-let myDate = new Date();
-const days = ['воскресенье', 'понедельник', 'вторник', 'среда', 'четверг', 'пятница', 'суббота'];
-const months = ['январь', 'февраль', 'март', 'апрель', 'май', 'июнь', 'июль', 'август', 'сентябрь', 'октябрь', 'ноябрь', 'декабрь'];
-let hour = myDate.getHours();
-let minute = myDate.getMinutes();
-let second = myDate.getSeconds();
-let allDate = 'Дата - ' + myDate.getDate() + ' ' + months[myDate.getMonth()] + ' ' + myDate.getFullYear() + ' - это ' + days[myDate.getDay()];
-if (minute < 10) {
-    minute = '0' + minute
+function findTime() {
+    let myDate = new Date();
+    const days = ['воскресенье', 'понедельник', 'вторник', 'среда', 'четверг', 'пятница', 'суббота'];
+    const months = ['январь', 'февраль', 'март', 'апрель', 'май', 'июнь', 'июль', 'август', 'сентябрь', 'октябрь', 'ноябрь', 'декабрь'];
+    let hour = myDate.getHours();
+    let minute = myDate.getMinutes();
+    let second = myDate.getSeconds();
+    let allDate = 'Дата - ' + myDate.getDate() + ' ' + months[myDate.getMonth()] + ' ' + myDate.getFullYear() + ' - это ' + days[myDate.getDay()];
+    if (minute < 10) {
+        minute = '0' + minute
+    }
+    if (second < 10) {
+        second = '0' + second
+    }
+    let allTime = 'Время - ' + hour + ':' + minute + ':' + second;
+    console.log(allDate);
+    console.log(allTime);
 }
-if (second < 10) {
-    second = '0' + second
-}
-let allTime = 'Время - ' + hour + ':' + minute + ':' + second;
-console.log(allDate);
-console.log(allTime);
