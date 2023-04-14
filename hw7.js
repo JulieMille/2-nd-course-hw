@@ -4,9 +4,9 @@ a = a.toUpperCase();
 console.log(a);
 
 // задание 2
+// let words = ['переход', 'перерыв', 'прорыв', 'пролив', 'перед', 'промыв'];
+// let search = 'пере';
 function findStart(words, search) {
-    const words = ['переход', 'перерыв', 'прорыв', 'пролив', 'перед', 'промыв'];
-    const search = 'пере';
     const newWords = [];
     words.forEach((el) => {
         if (el.toLowerCase().startsWith(search.toLowerCase())) {
@@ -56,10 +56,10 @@ currentDate.setDate(new Date().getDate() + 73);
 console.log(`через 73 дня будет ${currentDate}`);
 
 // задание 10
-function findTime() {
-    let myDate = new Date();
-    const days = ['воскресенье', 'понедельник', 'вторник', 'среда', 'четверг', 'пятница', 'суббота'];
-    const months = ['январь', 'февраль', 'март', 'апрель', 'май', 'июнь', 'июль', 'август', 'сентябрь', 'октябрь', 'ноябрь', 'декабрь'];
+// let myDate = new Date();
+const days = ['воскресенье', 'понедельник', 'вторник', 'среда', 'четверг', 'пятница', 'суббота'];
+const months = ['январь', 'февраль', 'март', 'апрель', 'май', 'июнь', 'июль', 'август', 'сентябрь', 'октябрь', 'ноябрь', 'декабрь'];
+function findTime(myDate) {
     let hour = myDate.getHours();
     let minute = myDate.getMinutes();
     let second = myDate.getSeconds();
